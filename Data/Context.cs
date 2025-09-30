@@ -19,7 +19,8 @@ namespace Tienda_EFC.Data
         {
             //Conexion DB
             optionsBuilder.UseSqlServer
-            (@"Server=PCGIEZI\MSSQLSERVER01;Database=TiendaSimpleDB;Trusted_Connection=True;TrustServerCertificate=True;");
+            //Modificar 'TUSERVER'
+            (@"Server=TUSERVER;Database=TiendaSimpleDB;Trusted_Connection=True;TrustServerCertificate=True;");
 
             //Despues abrir terminal (sin ejecutar) y escribir
             /*
